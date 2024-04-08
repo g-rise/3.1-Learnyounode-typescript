@@ -1,0 +1,32 @@
+{
+  "name": "learnyounode-typescript",
+  "version": "1.0.0",
+  "description": "Learnyounode fet amb typescript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "01": "npx ts-node src/01-hello-world.ts",
+    "02": "npx ts-node src/02-baby-steps.ts",
+    "02+": "npx ts-node src/02-baby-steps.ts 1 2 3 4",
+    "03": "npx ts-node src/03-my-first-io.ts",
+    "04": "npx ts-node src/04-my-first-async-io.ts",
+    "05": "npx ts-node src/05-filtered-ls.ts",
+    "06": "npx ts-node src/06-make-it-modular.ts",
+    "07": "npx ts-node src/07-http-client.ts",
+    "08": "npx ts-node src/08-http-collect.ts",
+    "09": "npx ts-node src/09-juggling-async.ts",
+    "10": "npx ts-node src/10-time-server.ts 5000",
+    "11": "npx ts-node src/11-http-file-server.ts 5001 support-files/divina_commedia.txt",
+    "12": "npx ts-node src/12-http-uppercaserer.ts 5002",
+    "13": "npx ts-node src/13-http.ts 3002",
+    "build": "npx tsc"
+  },
+  "author": "ELIO",
+  "license": "ISC",
+  "devDependencies": {
+    "bl": "^6.0.12",
+    "through2-map": "^3.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
